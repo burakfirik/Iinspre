@@ -29,8 +29,11 @@
     
     
     NSString *plistCatPath=[[NSBundle mainBundle] pathForResource:@"InspreList"  ofType:@"plist"];
+    NSDictionary *quot=[[NSDictionary alloc] initWithContentsOfFile:plistCatPath];
+    //NSMutableArray *arr=[quot mutableArrayValueForKey:@"quote"];
     
-    self.movieQuotes=[NSMutableArray arrayWithContentsOfFile:plistCatPath];
+    
+    self.movieQuotes=[quot mutableArrayValueForKey:@"quote"];
     
 	// Do any additional setup after loading the view, typically from a nib.
 }
