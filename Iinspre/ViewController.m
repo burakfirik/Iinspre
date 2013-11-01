@@ -42,7 +42,7 @@
 -(IBAction)quoteButtonTapped:(id)sender{
     int array_tot=[self.myQuotes count];
     int index=(arc4random()%array_tot);
-    NSString *my_quote=self.myQuotes;
+    NSString *my_quote=self.myQuotes[index];
     self.quoteText.text=[NSString stringWithFormat:@"Quote:\n\n%@",my_quote];
     
     

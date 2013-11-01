@@ -21,6 +21,7 @@
 		AE64424F181C5D5E00E8E0DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE644231181C5D5E00E8E0DB /* UIKit.framework */; };
 		AE644257181C5D5E00E8E0DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE644255181C5D5E00E8E0DB /* InfoPlist.strings */; };
 		AE644259181C5D5E00E8E0DB /* IinspreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE644258181C5D5E00E8E0DB /* IinspreTests.m */; };
+		AE7F0D2818244A8E006C4BF8 /* InspreList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE7F0D2718244A8E006C4BF8 /* InspreList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AE644254181C5D5E00E8E0DB /* IinspreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IinspreTests-Info.plist"; sourceTree = "<group>"; };
 		AE644256181C5D5E00E8E0DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE644258181C5D5E00E8E0DB /* IinspreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IinspreTests.m; sourceTree = "<group>"; };
+		AE7F0D2718244A8E006C4BF8 /* InspreList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InspreList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				AE64423F181C5D5E00E8E0DB /* Main.storyboard */,
 				AE644242181C5D5E00E8E0DB /* ViewController.h */,
 				AE644243181C5D5E00E8E0DB /* ViewController.m */,
+				AE7F0D2718244A8E006C4BF8 /* InspreList.plist */,
 				AE644245181C5D5E00E8E0DB /* Images.xcassets */,
 				AE644234181C5D5E00E8E0DB /* Supporting Files */,
 			);
@@ -231,6 +234,7 @@
 				AE644246181C5D5E00E8E0DB /* Images.xcassets in Resources */,
 				AE644238181C5D5E00E8E0DB /* InfoPlist.strings in Resources */,
 				AE644241181C5D5E00E8E0DB /* Main.storyboard in Resources */,
+				AE7F0D2818244A8E006C4BF8 /* InspreList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +464,7 @@
 				AE64425E181C5D5E00E8E0DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE64425F181C5D5E00E8E0DB /* Build configuration list for PBXNativeTarget "IinspreTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				AE644261181C5D5E00E8E0DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
