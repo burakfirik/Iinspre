@@ -16,6 +16,8 @@
 
 @property (nonatomic,strong) NSMutableArray *myQuotes;
 
+@property (nonatomic, strong) IBOutlet UISegmentedControl *quoteOpt;
+
 -(IBAction)quoteButtonTapped:(id)sender;
 
 @end

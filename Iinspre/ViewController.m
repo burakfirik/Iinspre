@@ -26,6 +26,12 @@
                     @"Better to have loved and lost then not loved at all",
                     @"The early bird catches the worm",
                     @"As slow as a wet week"];
+    
+    
+    NSString *plistCatPath=[[NSBundle mainBundle] pathForResource:@"quotes"  ofType:@"plist"];
+    
+    self.movieQuotes=[NSMutableArray arrayWithContentsOfFile:plistCatPath];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
